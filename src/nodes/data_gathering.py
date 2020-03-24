@@ -9,7 +9,9 @@ logger = logging.getLogger('nodes.data_gathering')
 
 
 def update(client, params):
-	""" Download the csv files for the respective missing days"""
+	""" 
+	Download the csv files for the respective missing days. 
+	"""
 
 	logger.info(f'Gathering data from {params.file}')
 

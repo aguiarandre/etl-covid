@@ -43,7 +43,6 @@ def run(client, params):
 
 	if params.rerun:
 
-
 		logger.info('Rerun. Setting all months to missing_months.')
 		missing_months = set(dates_in_github)
 		params.files_to_download = csv_files
